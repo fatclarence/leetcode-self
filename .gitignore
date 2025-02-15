@@ -17,8 +17,8 @@ Cargo.lock
 **/*.rs.bk
 
 # OCaml specific
-*/_build/
-*/_tests/
+/ocaml/*/_build/
+/ocaml/*/_tests/
 *.cmi
 *.cmo
 *.cmx
