@@ -15,3 +15,14 @@ Cargo.lock
 
 # Debug files
 **/*.rs.bk
+
+# OCaml specific
+*/_build/
+*/_tests/
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.byte
+*.native
+.merlin
