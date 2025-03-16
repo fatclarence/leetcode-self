@@ -1,4 +1,6 @@
 (executable
  (public_name labelled_func)
  (name main)
- (libraries labelled_func))
+ (libraries 
+ labelled_func
+ zarith))

@@ -19,7 +19,13 @@
  (name labelled_func)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml)
+ (depends 
+  (ocaml (>= 4.14.0))
+  dune
+  ; how a comment looks like in dune-project
+  zarith
+ )
+
  (tags
   ("add topics" "to describe" your project)))
 
