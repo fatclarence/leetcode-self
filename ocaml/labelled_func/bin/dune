@@ -1,0 +1,4 @@
+(executable
+ (public_name labelled_func)
+ (name main)
+ (libraries labelled_func))
